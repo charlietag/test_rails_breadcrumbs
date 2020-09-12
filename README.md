@@ -92,6 +92,14 @@
 
 * https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.1...v0.0.2
   * Start trying ~~breadcrumbs_on_rails~~ ***gretel (gem)***
+    * Add record (new)
+      ![gretel_new](/screenshots/gretel_new.png)
+    * Show record (show)
+      ![gretel_show](/screenshots/gretel_show.png)
+    * Edit record (edit)
+      ![gretel_edit](/screenshots/gretel_edit.png)
+    * List records (index)
+      ![gretel_index](/screenshots/gretel_index.png)
 
 ## Note
 * Gem
