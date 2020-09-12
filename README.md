@@ -86,13 +86,13 @@
   * `bundle exec rails db:create`
 
 ## Changes
-* https://github.com/charlietag/test_rails_multilang/compare/v0.0.0...v0.0.1
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.0...v0.0.1
   * Basic config and setup
     * `gem 'simple_form'`
 
-* https://github.com/charlietag/test_rails_multilang/compare/v0.0.1...v0.0.2
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.1...v0.0.2
   * Start trying ~~breadcrumbs_on_rails~~ ***gretel (gem)***
 
 ## Note
 * Gem
-  * (breadcrumbs)
+  * https://github.com/charlietag/test_rails_breadcrumbs
