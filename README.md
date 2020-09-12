@@ -91,10 +91,7 @@
     * `gem 'simple_form'`
 
 * https://github.com/charlietag/test_rails_multilang/compare/v0.0.1...v0.0.2
-  * Start trying Multi-Language for layout (change locale by URI - rails routes)
-    * Try gems
-
-* https://github.com/charlietag/test_rails_multilang/compare/v0.0.2...v0.0.3
+  * Start trying ~~breadcrumbs_on_rails~~ ***gretel (gem)***
 
 ## Note
 * Gem

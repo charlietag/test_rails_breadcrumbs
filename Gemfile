@@ -61,3 +61,5 @@ gem 'bullet', group: 'development'
 # For select timezone
 gem 'simple_form'
 
+# For adding breadcrumbs
+gem 'gretel'
