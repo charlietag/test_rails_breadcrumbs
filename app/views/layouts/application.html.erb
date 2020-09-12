@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <%# breadcrumbs pretext: "You are here: > ", display_single_fragment: false, style: :bootstrap, separator: '&nbsp;/&nbsp;' %>
+    <%= breadcrumbs style: :bootstrap, separator: '&nbsp;/&nbsp;' %>
     <%= yield %>
   </body>
 </html>

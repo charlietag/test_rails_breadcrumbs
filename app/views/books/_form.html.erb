@@ -1,3 +1,8 @@
+<%# if @book && @book.id.present? %>
+  <%# breadcrumb :book_edit, @book %>
+<%# else %>
+  <%# breadcrumb :book_new %>
+<%# end %>
 
 <%= simple_form_for(@book) do |f| %>
   <%= f.error_notification %>

@@ -1,5 +1,30 @@
 crumb :root do
-  link "Home", root_path
+  #link "Home", root_path
+  link "Home", '/'
+end
+
+crumb :books do
+  link "Books", books_path
+
+  # Ref. https://github.com/kzkn/gretel#options
+  # :autoroot, Whether it should automatically link to the :root crumb if no parent is given., Default:  True
+  # parent default is :root
+  #parent :root
+end
+
+crumb :book do |book|
+  link book.name, book_path(book)
+  parent :books
+end
+
+crumb :book_new do
+  link 'Add Book', new_book_path
+  parent :books
+end
+
+crumb :book_edit do |book|
+  link book.name, edit_book_path(book)
+  parent :books
 end
 
 # crumb :projects do
