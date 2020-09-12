@@ -13,9 +13,10 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password:
-  host: localhost
+  username: <%= Rails.application.credentials[Rails.env.to_sym][:db][:user] %>
+  password: <%= Rails.application.credentials[Rails.env.to_sym][:db][:pass] %>
+  socket: /var/lib/mysql/mysql.sock
+  #host: localhost
 
 development:
   <<: *default
@@ -50,5 +51,3 @@ test:
 production:
   <<: *default
   database: test_rails_breadcrumbs_production
-  username: test_rails_breadcrumbs
-  password: <%= ENV['TEST_RAILS_BREADCRUMBS_DATABASE_PASSWORD'] %>
