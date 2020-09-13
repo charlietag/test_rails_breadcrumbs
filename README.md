@@ -141,6 +141,18 @@
       $ brakeman -o output.html
       ```
 
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.4...v0.0.5
+  * Start trying ***pagy (gem)*** with ***FRIENDLY URL*** *For Better SEO*
+  * `your_route?page=23` -> `your_route/23`
+
+  ***pagy fancy routes***
+
+  Ref. https://ddnexus.github.io/pagy/how-to.html#customizing-the-url
+
+  ***friendly URL for SEO***
+
+  Ref. https://github.com/kaminari/kaminari#creating-friendly-urls-and-caching
+
 ## Note
 * Gem - gretel (breadcrumbs)
   * https://github.com/kzkn/gretel
@@ -150,9 +162,3 @@
     ```ruby
     gem 'pagy'
     ```
-
-## TODO
-* Gem - pagy
-  * Try friendly URL (Fancy routes)
-    * Ref. https://ddnexus.github.io/pagy/how-to.html#customizing-the-url
-    * `your_route?page=23` -> `your_route/23`
