@@ -63,3 +63,6 @@ gem 'simple_form'
 
 # For adding breadcrumbs
 gem 'gretel'
+
+# For paginate (better performance than kaminari)
+gem 'pagy'

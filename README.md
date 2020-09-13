@@ -104,6 +104,7 @@
 * https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.2...v0.0.3
   * Start trying ***pagy (gem)***
     * https://ddnexus.github.io/pagy/how-to#quick-start
+
       Render the navigation links in some view:
 
       with a fast helper (also styled for bootstrap, bulma, foundation, materialize, semantic, uikit and available in different flavors (static, responsive, compact, etc.)
