@@ -137,7 +137,7 @@
 
       ***Run check***
 
-      ```ruby
+      ```bash
       $ brakeman -o output.html
       ```
 
