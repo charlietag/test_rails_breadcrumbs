@@ -101,6 +101,35 @@
     * List records (index)
       ![gretel_index](/screenshots/gretel_index.png)
 
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.2...v0.0.3
+  * Start trying ***pagy (gem)***
+    * https://ddnexus.github.io/pagy/how-to#quick-start
+      Render the navigation links in some view:
+
+      with a fast helper (also styled for bootstrap, bulma, foundation, materialize, semantic, uikit and available in different flavors (static, responsive, compact, etc.)
+
+      Note the ***double equals sign "=="*** which marks the ***output as trusted and html safe***
+
+      ```ruby
+      <%# Note the double equals sign "==" which marks the output as trusted and html safe: %>
+      <%== pagy_nav(@pagy) %>
+      ```
+
+    * pagy.rb ({Rails.root}/config/initializers/pagy.rb)
+
+      ***Choose the latest version of config/pagy.rb***
+
+      ```bash
+      cd {Rails.root}/config/initializers
+      wget https://raw.githubusercontent.com/ddnexus/pagy/master/lib/config/pagy.rb
+      ```
+
 ## Note
-* Gem
-  * https://github.com/charlietag/test_rails_breadcrumbs
+* Gem - gretel (breadcrumbs)
+  * https://github.com/kzkn/gretel
+* Gem - pagy (paginate)
+  * https://github.com/ddnexus/pagy
+
+    ```ruby
+    gem 'pagy'
+    ```
