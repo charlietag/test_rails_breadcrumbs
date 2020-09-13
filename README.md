@@ -150,3 +150,9 @@
     ```ruby
     gem 'pagy'
     ```
+
+## TODO
+* Gem - pagy
+  * Try friendly URL (Fancy routes)
+    * Ref. https://ddnexus.github.io/pagy/how-to.html#customizing-the-url
+    * `your_route?page=23` -> `your_route/23`
