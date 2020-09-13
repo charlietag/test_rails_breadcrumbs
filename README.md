@@ -121,15 +121,25 @@
       ***Choose the latest version of config/pagy.rb***
 
       ```bash
-      cd {Rails.root}/config/initializers
-      wget https://raw.githubusercontent.com/ddnexus/pagy/master/lib/config/pagy.rb
+      $ cd {Rails.root}/config/initializers
+      $ wget https://raw.githubusercontent.com/ddnexus/pagy/master/lib/config/pagy.rb
       ```
 
 * https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.3...v0.0.4
   * Start trying ***brakeman (gem)***
     * https://github.com/presidentbeef/brakeman
-      * `gem 'brakeman', '>= 4.0', require: false, group: 'development'`
-      * `brakeman -o output.html`
+
+      ***Gemfile***
+
+      ```ruby
+      gem 'brakeman', '>= 4.0', require: false, group: 'development'
+      ```
+
+      ***Run check***
+
+      ```ruby
+      $ brakeman -o output.html
+      ```
 
 ## Note
 * Gem - gretel (breadcrumbs)
