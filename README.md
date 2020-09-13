@@ -125,6 +125,12 @@
       wget https://raw.githubusercontent.com/ddnexus/pagy/master/lib/config/pagy.rb
       ```
 
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.3...v0.0.4
+  * Start trying ***brakeman (gem)***
+    * https://github.com/presidentbeef/brakeman
+      * `gem 'brakeman', '>= 4.0', require: false, group: 'development'`
+      * `brakeman -o output.html`
+
 ## Note
 * Gem - gretel (breadcrumbs)
   * https://github.com/kzkn/gretel

@@ -66,3 +66,8 @@ gem 'gretel'
 
 # For paginate (better performance than kaminari)
 gem 'pagy'
+
+# Ref. https://gist.github.com/dhh/782fb925b57450da28c1e15656779556
+# For security vulnerability scanner in Rails
+#gem 'brakeman', require: false, group: 'development'
+gem 'brakeman', '>= 4.0', require: false, group: 'development'
