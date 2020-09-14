@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  # --- friendly URL for SEO , using GEM: routing-filter ---
+  # Ref. https://github.com/svenfuchs/routing-filter/blob/master/lib/routing_filter/filters/pagination.rb
+  # Instead setup routes using concern :paginatable
+  # This gem extract param[:page] from URL regex
+  #filter :pagination
+
   # --- pagy fancy routes ---
   # Ref. https://ddnexus.github.io/pagy/how-to.html#customizing-the-url
 

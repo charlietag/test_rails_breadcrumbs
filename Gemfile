@@ -71,3 +71,15 @@ gem 'pagy'
 # For security vulnerability scanner in Rails
 #gem 'brakeman', require: false, group: 'development'
 gem 'brakeman', '>= 4.0', require: false, group: 'development'
+
+
+# ---------------------------------------------------------
+# Usefult for URL routes without touching file config/routes
+# ---------------------------------------------------------
+# Ref https://github.com/svenfuchs/routing-filter
+# Locale - prepends the page's :locale (e.g. /de/products)
+# Pagination - appends page/:num (e.g. /products/page/2)
+# Uuid - prepends a uuid for authentication or other purposes (e.g. /d00fbbd1-82b6-4c1a-a57d-098d529d6854/products/1)
+# Extension - appends an extension (e.g. /products.html)
+
+gem 'routing-filter'

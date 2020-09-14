@@ -153,6 +153,12 @@
 
     Ref. https://github.com/kaminari/kaminari#creating-friendly-urls-and-caching
 
+* https://github.com/charlietag/test_rails_breadcrumbs/compare/v0.0.5...v0.0.6
+  * Start trying ***pagy (gem)*** with ***FRIENDLY URL*** *For Better SEO*
+    * `your_route?page=23` -> `your_route/23`
+    * Leverage rails gem: ***routing-filter
+      * https://github.com/svenfuchs/routing-filter
+
 ## Note
 * Gem - gretel (breadcrumbs)
   * https://github.com/kzkn/gretel
